@@ -1,0 +1,251 @@
+/*---- main ----*/
+body{
+background-color: #f8f7f7;
+color: #4c4c4c;
+font-family: Muli, sans-serif;
+font-size: 16px;
+margin: auto;
+max-width: 90%;
+}
+
+h1{
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #91c2ac;
+}
+
+h2{
+  color: #104f4f;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.horizontal-line{
+  padding-bottom: 16px;
+  border-bottom: 1px solid #abbacb;
+}
+
+.spacing{
+  line-height: 10px;
+}
+
+/*---- header ----*/
+header{
+  margin-top: 20px;
+}
+
+.main-info{
+  line-height: 12px;
+  margin: auto;
+  text-align: center;
+}
+
+header h1{
+  color: #91c2ac;
+  font-weight: 900;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+header h2{
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+header h3{
+  font-size: 16px;
+}
+
+.job-title{
+  font-weight: 700;
+}
+
+img{
+  height: 100px;
+  margin: auto;
+  display: block;
+}
+
+/*---- experience ----*/
+
+.company{
+  line-height: 15px;
+}
+
+.location{
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+h3{
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.italic{
+  font-weight: 400;
+  font-style: italic;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 30px;
+}
+
+ul li{
+  text-align-last: start;
+}
+
+ul li::marker{
+  color: #104f4f;
+  font-size: 1em;
+}
+
+/*---- education ----*/
+.education{
+  width: 48%;
+  display: inline;
+  float: left;
+  padding-bottom: 10px;
+}
+
+.education ul{
+  padding-left: 0;
+}
+
+.education ul li{
+  list-style-type: none;
+}
+
+.certifications{
+  margin-top: 30px;
+}
+
+/*---- skills ----*/
+
+.skills{
+  width: 48%;
+  display: inline;
+  float: left;
+  margin-left: 4%;
+}
+
+.skills ul{
+  padding-left: 0;
+}
+
+.skills ul li{
+  list-style-type: none;
+}
+
+.bar-outline{
+  height: 12px;
+  border: 1px solid #104f4f;
+  float: right;
+  width: 60%;
+  clear: both;
+  margin-top: 8px;
+}
+
+.html{
+  height: 12px;
+  width: 75%;
+  background-color: #104f4f;
+}
+
+.photoshop{
+  height: 12px;
+  width: 80%;
+  background-color: #104f4f;
+}
+
+.illustrator{
+  height: 12px;
+  width: 60%;
+  background-color: #104f4f;
+}
+
+.indesign{
+  height: 12px;
+  width: 50%;
+  background-color: #104f4f;
+}
+
+.premiere{
+  height: 12px;
+  width: 90%;
+  background-color: #104f4f;
+}
+
+.after-effects{
+  height: 12px;
+  width: 85%;
+  background-color: #104f4f;
+}
+
+.msoffice{
+  height: 12px;
+  width: 95%;
+  background-color: #104f4f;
+}
+
+.more-skills ul{
+  margin: 2px;
+}
+
+.more-skills ul li{
+  display: inline;
+  padding: 0;
+}
+
+/*---- footer ----*/
+footer{
+  width: 100%;
+  margin-bottom: 3%;
+  text-align: center;
+  color: #91c2ac;
+  clear: both;
+}
+
+p{
+  display: inline-block;
+  margin-top: 12%;
+  padding: 2%;
+}
+
+/*---- Tablet  ----*/
+@media (min-width: 768px){
+  body{
+    max-width: 75%;
+  }
+
+  img{
+    height: 100px;
+    float: left;
+    margin-right: 30px;
+    display: block;
+  }
+
+  .main-info{
+    line-height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+  }
+
+  .company{
+    line-height: 10px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+body{
+  max-width: 70%;
+}
+}
