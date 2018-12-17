@@ -22,8 +22,8 @@ h2{
   text-transform: uppercase;
 }
 
-h3{
-  font-size: 18px;
+h2:first-line{
+  line-height: 30px;
 }
 
 .horizontal-line{
@@ -86,7 +86,11 @@ img{
 
 h3{
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
+}
+
+h3:first-line{
+  line-height: 30px;
 }
 
 .italic{
@@ -94,14 +98,22 @@ h3{
   font-style: italic;
 }
 
+.experience ul{
+  padding-left: 12px;
+}
+
+.experience ul li{
+  text-indent: -16px;
+}
+
 ul{
   list-style-type: none;
-  padding-left: 0;
-  line-height: 30px;
+  line-height: 20px;
 }
 
 ul li{
   text-align-last: start;
+  padding: 5px;
 }
 
 ul li::marker{
