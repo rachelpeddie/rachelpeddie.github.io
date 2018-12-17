@@ -22,6 +22,10 @@ h2{
   text-transform: uppercase;
 }
 
+h3{
+  font-size: 18px;
+}
+
 .horizontal-line{
   padding-bottom: 16px;
   border-bottom: 1px solid #abbacb;
@@ -107,9 +111,8 @@ ul li::marker{
 
 /*---- education ----*/
 .education{
-  width: 48%;
-  display: inline;
-  float: left;
+  width: 100%;
+  margin: auto;
   padding-bottom: 10px;
 }
 
@@ -128,10 +131,8 @@ ul li::marker{
 /*---- skills ----*/
 
 .skills{
-  width: 48%;
-  display: inline;
-  float: left;
-  margin-left: 4%;
+  width: 100%;
+  margin: auto;
 }
 
 .skills ul{
@@ -193,6 +194,11 @@ ul li::marker{
   background-color: #104f4f;
 }
 
+.more-skills{
+  display: inline-block;
+  margin: auto;
+}
+
 .more-skills ul{
   margin: 2px;
 }
@@ -218,7 +224,7 @@ p{
 }
 
 /*---- Tablet  ----*/
-@media (min-width: 768px){
+@media (min-width: 1024px){
   body{
     max-width: 75%;
   }
@@ -237,15 +243,22 @@ p{
     text-align: left;
   }
 
+  .education{
+    width: 48%;
+    display: inline;
+    float: left;
+    padding-bottom: 10px;
+  }
+
+  .skills{
+    width: 48%;
+    display: inline;
+    float: left;
+    margin-left: 4%;
+  }
+
   .company{
     line-height: 10px;
   }
 
-}
-
-@media (min-width: 1024px) {
-
-body{
-  max-width: 70%;
-}
 }
